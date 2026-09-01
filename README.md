@@ -6,8 +6,6 @@ any static host.
 
 Production: <https://fdr-docs.pages.dev/>
 
-Fallback mirror: <https://anouarmohamed.github.io/>
-
 ## Run locally
 
 ```sh
@@ -25,8 +23,11 @@ npm run build
 Publish the generated `dist/` directory. Navigation uses URL fragments, so it
 works without server-side rewrite rules.
 
-Pushes to `main` are automatically built and published by the GitHub Pages
-workflow in `.github/workflows/deploy-pages.yml`.
+Deploy the production build to the existing Cloudflare Pages project with:
+
+```sh
+npx wrangler pages deploy dist --project-name fdr-docs --branch main
+```
 
 ## Documentation coverage
 
