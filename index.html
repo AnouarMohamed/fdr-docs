@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Operations-focused documentation for Flight Data Recorder, the bounded Linux kernel tracing daemon." />
+    <meta name="theme-color" content="#eeeeee" />
+    <title>FDR Operator Guide</title>
+    <link rel="icon" href="/assets/fdr-mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#article">Skip to documentation</a>
+
+    <header id="banner">
+      <div class="banner-inner">
+        <a class="brand" href="#/contents" aria-label="FDR documentation home">
+          <img src="/assets/fdr-wordmark.svg" alt="FDR" width="372" height="84" />
+        </a>
+        <span class="guide-label">Operator guide</span>
+      </div>
+    </header>
+
+    <nav class="nav-strip" aria-label="Documentation navigation">
+      <div class="nav-inner">
+        <div class="edition-menu">
+          <button id="edition-button" type="button" aria-expanded="false" aria-controls="edition-options">
+            FDR 1.4 <span aria-hidden="true">▼</span>
+          </button>
+          <div id="edition-options" class="edition-options" hidden>
+            <a href="#/release-notes">Release notes</a>
+            <a href="#/validation">Validation status</a>
+          </div>
+        </div>
+
+        <form class="search-form" id="search-form" role="search">
+          <label class="sr-only" for="search-input">Search the guide</label>
+          <input id="search-input" type="search" placeholder="Search the guide" autocomplete="off" />
+          <button type="submit">Search</button>
+        </form>
+
+        <div class="page-links" aria-label="Page navigation">
+          <a id="prev-link" href="#/contents">Previous</a>
+          <span aria-hidden="true">·</span>
+          <a href="#/contents">Contents</a>
+          <span aria-hidden="true">·</span>
+          <a id="next-link" href="#/getting-started">Next</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="content">
+      <div id="article" tabindex="-1" aria-live="polite"></div>
+    </main>
+
+    <footer>
+      <div>
+        <span>Flight Data Recorder operator documentation</span>
+        <span>·</span>
+        <a href="#/security">Security</a>
+        <span>·</span>
+        <a href="#/validation">Evidence</a>
+        <span>·</span>
+        <a href="https://github.com/AnouarMohamed/Ftrace-Flight-Recorder">Source</a>
+      </div>
+    </footer>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
