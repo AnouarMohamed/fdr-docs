@@ -4,7 +4,7 @@ Standalone static documentation for Flight Data Recorder. This project is
 intentionally separate from the FDR source repository and can be deployed to
 any static host.
 
-Production: <https://fdr-operator-guide.studios-new-generation.chatgpt.site/>
+Production: <https://fdr-docs.pages.dev/>
 
 Fallback mirror: <https://anouarmohamed.github.io/>
 
